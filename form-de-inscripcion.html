@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Inscripcion | DevX</title>
+    <link rel="stylesheet" href="styles-form-de-inscripcion.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navprimario">
+            <div class="navprimario__menu-items">
+                <div class="navprimario__menu-items-logo">
+                    <a class="navprimario__menu-logo" href="#">
+                        <img class="navprimario__menu-logo-img" src="./assets/logo.png" alt="logo">
+                    </a>
+                    <h1 class="navprimario__menu-items-nombre">DevX</h1>
+                </div>
+
+                <div class="navprimario__menu-items-buscador">
+                    <input class="navprimario__menu-items-buscador-input" type="text" placeholder="Buscar">
+                    <button class="navprimario__menu-items-buscador-button" type="submit">
+                        <img class="navprimario__menu-items-buscador-button-img" src="./assets/lupa.png" alt="Bus">
+                    </button>
+                </div>
+
+
+
+                <div class="navprimario__menu-items-carrito">
+                    <div class="navprimario__menu-login">
+                        <a class="navprimario__menu-login-btn" href="./pages/inicio-sesion.html">INGRESAR</a>
+                        <a class="navprimario__menu-login-btn" href="./pages/crear-cuenta.html">REGISTRARSE</a>
+                    </div>
+                    <a class="navprimario__menu-items-carrito-link" href="../TpWeb1/pages/carrito-compras.html">
+                        <img class="navprimario__menu-items-carrito-img" src="./assets/carrito.png"
+                            alt="Carrito de compras">
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navsecundario">
+            <ul class="navsecundario__menu">
+                <li class="navsecundario__menu-item">
+                    <a class="navsecundario__menu-item-link" href="/pages/giftcard.html">Gifcards</a>
+                </li>
+
+                <li class="navsecundario__menu-item">
+                    <a class="navsecundario__menu-item-link" href="./pages/calendario.html">Calendario</a>
+                </li>
+
+                <li class="navsecundario__menu-item">
+                    <a class="navsecundario__menu-item-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="contenedor-formulario">
+            <h2>TÍTULO CURSO</h2>
+            <h3>INSCRIPCIÓN</h3>
+
+            <form action="#">
+                <div class="grupo-formulario">
+                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido" required>
+                    <input type="text" name="dni" id="id" placeholder="DNI" required>
+                    <button class="boton-eliminar">-</button>
+                </div>
+
+                <div class="grupo-formulario">
+                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido" required>
+                    <input type="text" name="dni" id="id" placeholder="DNI" required>
+                    <button class="boton-eliminar">-</button>
+                </div>
+
+                <div class="grupo-formulario">
+                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido" required>
+                    <input type="text" name="dni" id="id" placeholder="DNI" required>
+                    <button class="boton-eliminar">-</button>
+                </div>
+
+                <button class="boton-agregar-persona">Agregar Persona</button>
+
+                <div class="precio">
+                    <span>U$D 40-</span>
+                </div>
+
+                <button type="submit" class="boton-inscribirse">INSCRIBIRSE</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__columna">
+                <div class="footer__columna--titulo">
+                    <h3>Datos del grupo</h3>
+                </div>
+                <ul class="footer__columna--lista">
+                    <li>Aquino Camila</li>
+                    <li>Di Nubila Mateo</li>
+                    <li>Oddi Nicolás</li>
+                </ul>
+            </div>
+
+            <div class="footer__columna">
+                <nav>
+                    <ul class="footer__columna--lista"> <!--Completar con ID/url-->
+                        <li><a href="">Home</a></li>
+                        <li><a href="./descripcion-del-curso.html">Cursos</a></li>
+                        <li><a href="">Nosotros</a></li>
+                        <li><a href="">Bla bla</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__columna">
+                <div class="footer__columna--titulo">
+                    <h3>Contactanos en nuestras redes sociales</h3>
+                </div>
+
+                <div class="footer__columna--dato-contacto">
+                    <img src="./assets/instagram-logo.png" width="30" height="30" alt="logo-instagram">
+                    <span> @cursos_online</span>
+                </div>
+
+                <div class="footer__columna--dato-contacto">
+                    <img src="./assets/facebook-logo.png" width="30" height="30" alt="logo-instagram">
+                    <span>@cursos_online</span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
